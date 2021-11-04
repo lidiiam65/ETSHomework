@@ -1,13 +1,16 @@
 <template>
   <div>
-    <h1>ABOUT PAGE</h1>
+    <h1>USERS</h1>
     <h2>it`s parent</h2>
     <p></p>
     <nuxt-child />
-
+    <p></p>
     <v-btn color="primary" nuxt to="/"> Homepage </v-btn>
   </div>
 </template>
+
+<style>
+</style>
 
 <script>
 import Vue from "vue";
@@ -17,5 +20,5 @@ export default
 @Component({
   components: {},
 })
-class About extends Vue {}
+class Users extends Vue {}
 </script>

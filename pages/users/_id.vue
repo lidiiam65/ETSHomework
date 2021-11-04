@@ -1,11 +1,6 @@
 <template>
   <div>
-    <h1>ABOUT PAGE</h1>
-    <h2>it`s parent</h2>
-    <p></p>
     <nuxt-child />
-
-    <v-btn color="primary" nuxt to="/"> Homepage </v-btn>
   </div>
 </template>
 
@@ -17,5 +12,5 @@ export default
 @Component({
   components: {},
 })
-class About extends Vue {}
+class UserIdPage extends Vue {}
 </script>
